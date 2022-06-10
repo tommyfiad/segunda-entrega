@@ -1,0 +1,98 @@
+@import "./variables";
+.inicio__sec{
+
+    border: solid $col5 5px;
+    height: 51vh;
+    margin: 3%;
+    margin-top: 5%;
+
+    .titulo__sec{
+        padding: 5px;
+        background: rgb(146,43,33);
+        border: solid 3px #283747;
+        background: url(./imagenes/titulo__sec\fondo.jpg);
+        background-size: 8%;
+        background-position-y:150px ;
+        display: flex;
+        justify-content: center;
+    }
+
+    .artes{
+        color:$col4;
+        background-color:$col1 ;
+        border: solid 5px $col2;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .inicio__art{
+         padding: 2%;
+         height: 40vh;
+         display: flex;
+         align-items: center;
+         background: rgb(40,116,166);
+         background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100%);}
+    
+    
+    }
+
+    .inicio__sec2{
+
+        border: solid $col5 5px;
+        height: 51vh;
+        margin: 3%;
+
+         
+    .titulo__sec2{
+        padding: 5px;
+        background: rgb(146,43,33);
+        border: solid 3px $col2;
+        background: url(./imagenes/titulo__sec\fondo.jpg);
+        background-size: 8%;
+        background-position-y:150px ;
+        display: flex;
+        justify-content: center;
+    }
+
+    .artes2{
+        color:$col4;
+        background-color:$col1  ;
+        border: solid 5px $col2;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .inicio__art2{
+        padding: 2%;
+        height: 40vh;
+        display: flex;
+        background: rgb(40,116,166);
+        background: l
+        
+        }
+
+        .lista{   
+        font-size: 25px;
+        height: 8vh;
+        width: 100%;
+        font-size: 200%;
+        transform: skew(-10deg);
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        }
+
+        .item__sec{
+            font-size: 25px;
+            height: 8vh;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 200%;
+            transform: skew(-10deg);
+        text-decoration: dotted;
+        }
+        .imgp2{
+            transform: translate(95%, -65%);
+        }
+    }
